@@ -4,18 +4,21 @@
     box-sizing: border-box;
     font-family: 'RR';
 }
+
 a {
     text-decoration: none;
 }
 ul {
     list-style: none;
 }
+
 .container {
-    max-width: 1140px;
+    max-width: 1110px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15;
 }
+
 .header-nav {
     background: #3E8989;
     padding-top: 33px;
@@ -65,160 +68,340 @@ ul {
     line-height: 17px;
     color: #FFFFFF;
 }
- 
-.header-content {  
+.header-content {
+    background: url(../images/ьтим.jpg) no-repeat center /cover;
     height: 800px;
-    background: url(../images/ьтим.jpg) no-repeat center top /cover;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .header-content-title {
-font-family: 'rsb';
-font-size: 80px;
-line-height: 95px;
-color: #FFFFFF;
-margin-bottom: 20px;
-
+    font-family: 'RSB';
+    font-size: 80px;
+    line-height: 95px;
+    color: #FFFFFF;
+    margin-top: 250px;
 }
 .header-content-text {
- font-size: 40px;
-line-height: 47px;
-color: #FFFFFF;
-margin-bottom: 50px;
+    font-family: 'RM';
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-top: 20px;
 }
-.header-content a{
- background: #B4436C;
-border-radius: 30px;
-font-size: 18px;
-line-height: 22px;
-font-family: 'rsb';
-color: white;
-width: 200px;
-height: 50px;
-display: flex;
-justify-content: center;
-align-items: center;
+.header-content-btn {
+    background: #B4436C;
+    border-radius: 30px;
+    border: none;
+    font-family: 'ISB';
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 14px 78px;
+    margin-top: 50px;
 }
-.main-title {
-font-size: 40px;
-line-height: 48px;
-font-family: 'rsb';
-color: #3E8989;
-text-align: center;
-margin-top: 80px;
-margin-bottom: 50px;
-}
-.main-box {
-    display: flex;
-}
-.main-box p {
- font-size: 18px;
-line-height: 21px;
-color: #000000;
-margin-left: 20px;
-}
-.main-p1 {
-    margin-bottom: 20px;
-}
-.main-item {
- display: flex;
- gap: 20px;
 
-}
-.main-bottom-title{
+.main-top-title {
     text-align: center;
-    font-family: "RSB";
+    font-family: 'ISB';
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+    margin: 80px 0 50px;
+}
+.main-top-content {
+    display: flex;
+    gap: 20px;
+}
+.main-top-text {
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    overflow: scroll;
+}
+
+.main-bottom-title {
+    text-align: center;
+    font-family: 'ISB';
     font-size: 40px;
     line-height: 48px;
     color: #3E8989;
     margin: 97px 0 53px;
 }
-.main-bottom-clothes{
+.main-bottom-clothes {
     display: flex;
     justify-content: space-between;
 }
-.main-bottom-clothes-item{
+.main-bottom-clothes-item {
     max-width: 263px;
     width: 100%;
 }
-.img-clothes{
-    background-color: #EFEFEF;
+.img-clothes {
+    background: #EFEFEF;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.clothes-item-title{
+.clothes-item-title {
     display: block;
-    color: #000000;
     text-align: center;
     margin-top: 30px;
-    font-family: "RSB";
+    font-family: 'RSB';
     font-size: 24px;
     line-height: 29px;
+    color: #000000;
     transition: color 300ms;
 }
-.clothes-item-title:hover{
+.clothes-item-title:hover {
     color: #B4436C;
 }
-.main-title-1 {
-font-size: 40px;
-line-height: 48px;
-color: #3E8989;
-margin: 100px 0;
-margin-bottom: 50px;
 
-}
-.main-footer p{
-font-size: 20px;
-line-height: 24px;
-color: #000000;
-}
-.tell{
-    font-size: 20px;
-    line-height: 24px;
-    color: #000000;
-}
-.mail {
-    font-size: 20px;
-    line-height: 24px;
-    color: #000000;
-    margin-top: 20px;
-}
-.main-footer {
+.main-feedback-content {
     display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
     margin-bottom: 104px;
 }
-.main-footer-right {
+.main-feedback-left {
+    max-width: 555px;
+    width: 100%;
+}
+.main-feedback-left-title {
+    font-family: 'ISB';
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+}
+.main-feedback-left-text {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 50px;
+}
+.main-feedback-right {
     display: flex;
-    justify-content: flex-end;
     flex-direction: column;
-    padding-left: 388px;
+    gap: 20px;
 }
-.footer-item {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 30px;
-padding: 40px;
+.main-feedback-right-tel {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 98px;
 }
-footer {
-    background: #3E8989;
-    height: 150px;
-    
+.main-feedback-right-mail {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
 }
-.footer-item a {
-font-size: 16px;
-line-height: 19px;
-color: #FFFFFF;
-font-family: 'rsb';
 
+.footer {
+    background: #3E8989;
+    padding: 40px 0 15px;
 }
-footer p{
-font-size: 14px;
-line-height: 17px;
-color: #FFFFFF;
-text-align: center;
+.footer-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 59px;
+}
+.footer-list-item {
+    font-family: 'RM';
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.footer-text {
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+/* Медиа запросы */
+
+@media(max-width:1200px) {
+    .container {
+        width: 80%;
+    }
+    .main-top-content > img {
+        width: 50%;
+        height: 300px;
+    }
+    .main-bottom-clothes-item {
+        width: 23%;
+    }
+    .img-clothes{
+        height: 230px;
+    }
+    .img-clothes > img {
+        width: 80%;
+    }
+}
+
+@media(max-width:900px) {
+    .header-nav-search {
+        display: none;
+    }
+    .header-content {
+        height: 600px;
+    }
+    .header-content-title {
+        font-size: 55px;
+        line-height: 68px;
+    }
+    .header-content-text {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .header-content-btn {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 10px 58px;
+    }
+    .main-top-content > img {
+        width: 50%;
+    }
+    .main-top-title,
+    .main-bottom-title,
+    .main-feedback-left-title {
+        font-size: 30px;
+        line-height: 43px;
+    }
+    .main-feedback-right-tel,
+    .main-feedback-right-mail {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .clothes-item-title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .main-top-text,
+    .main-feedback-left-text {
+        font-size: 16px;
+        line-height: 22px;
+        height: 270px;
+    }
+    .main-feedback-left-text {
+        width: 70%;
+    }
+        
+}
+
+@media(max-width:760px) {
+    .header-content {
+        height: 550px;
+    }
+    .header-content-title {
+        font-size: 35px;
+        line-height: 38px;
+    }
+    .header-content-text {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .header-content-btn {
+        font-size: 10px;
+        line-height: 14px;
+        padding: 8px 38px;
+        margin-top: 40px;
+    }
+    .main-top-content > img {
+        width: 50%;
+        height: 200px;
+    }
+    .main-top-title,
+    .main-bottom-title,
+    .main-feedback-left-title {
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .main-top-text,
+    .main-feedback-left-text  {
+        max-height: 200px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .main-bottom-clothes-item {
+        width: 23%;
+    }
+    .img-clothes{
+        height: 170px;
+    }
+    .img-clothes > img {
+        width: 60%;
+    }
+    .main-feedback-right-tel {
+        margin-top: 80px;
+    }
+    .main-feedback-right-tel,
+    .main-feedback-right-mail {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+@media(max-width:576px) {
+    .header-navbar {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .header-content {
+        height: 450px;
+    }
+    .header-content-title {
+        font-size: 26px;
+        line-height: 15px;
+    }
+    .header-content-text {
+        font-size: 17px;
+        line-height: 15px;
+    }
+    .header-content-btn {
+        font-size: 10px;
+        line-height: 10px;
+        padding: 8px 38px;
+        margin-top: 30px;
+    }
+    .main-top-content > img {
+        width: 50%;
+        height: 150px;
+    }
+    .main-top-title,
+    .main-bottom-title,
+    .main-feedback-left-title {
+        font-size: 19px;
+        line-height: 22px;
+    }
+    .main-top-text {
+        max-height: 150px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .main-bottom-clothes {
+        flex-wrap: wrap;
+        row-gap: 35px;
+    }
+    .main-bottom-clothes-item {
+        width: 45%;
+    }
+    .img-clothes{
+        height: 200px;
+    }
+    .img-clothes > img {
+        width: 70%;
+    }
+    .main-feedback-left-text {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .main-feedback-right-tel {
+        margin-top: 70px;
+    }
+    .main-feedback-right-tel,
+    .main-feedback-right-mail {
+        font-size: 14px;
+        line-height: 17px;
+    }
 }

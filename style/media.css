@@ -1,0 +1,33 @@
+@media(max-width:1150px) {
+       .header-nav-search{
+        display: none;
+       }
+       .header-content{
+        height: 600px;
+       }
+       .header-content-title{
+        font-size: 70px;
+       }
+       .header-content-text{
+        font-size: 40px;
+        line-height: 30px;
+       }      
+}
+
+@media(max-width:1020px){
+    .main-bottom-clothes-item{
+        width: 30%;
+    }
+}
+
+@media(max-width:930px){
+    .header-nav{
+        flex-direction: column;
+       }
+       .main-bottom-title{
+        font-size: 35px;
+        line-height: 69px;
+       }
+}
+
+
